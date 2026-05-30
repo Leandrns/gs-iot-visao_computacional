@@ -1,4 +1,4 @@
-"""HUD + desenho de landmarks (substituto do extinto mp.solutions.drawing_utils)."""
+"""HUD + desenho de landmarks"""
 import cv2
 
 # Conexoes entre os 21 landmarks da mao
@@ -59,7 +59,7 @@ def draw_hud(frame, gesture, fps=None):
     h, w = frame.shape[:2]
 
     cv2.rectangle(frame, (0, 0), (w, 90), (20, 20, 20), -1)
-    cv2.putText(frame, "SignSpace - EVA Communication",
+    cv2.putText(frame, "Tradutor de sinais - EVA Communication",
                 (10, 28), cv2.FONT_HERSHEY_SIMPLEX, 0.65, (200, 200, 200), 1)
 
     if gesture and gesture in GESTURE_LABELS:

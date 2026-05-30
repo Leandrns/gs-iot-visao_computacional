@@ -106,7 +106,7 @@ def main():
             prev_time = now
 
             draw_hud(frame, gesture, fps)
-            cv2.imshow("SignSpace", frame)
+            cv2.imshow("Tradutor de Sinais EVA", frame)
 
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
