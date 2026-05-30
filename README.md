@@ -17,6 +17,12 @@ Durante as atividades extra-veiculares (EVAs / spacewalks), astronautas usam sin
 
 Esse projeto é um sistema de visão computacional que captura vídeo da webcam em tempo real e reconhece esses sinais oficiais usando MediaPipe (detecção de mãos e pose) combinado com regras geométricas sobre os landmarks. Cada sinal reconhecido é exibido em um HUD na tela com seu significado.
 
+### Referências
+
+Blog com imagens dos sinais: https://mdrs141.weebly.com/blog/eva-hand-signals
+
+Vídeo da Nasa: https://universemagazine.com/en/how-astronauts-communicate-in-space-without-words-video/
+
 ### Sinais reconhecidos
 
 Sinais de mão:
