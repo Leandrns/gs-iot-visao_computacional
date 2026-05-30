@@ -1,4 +1,4 @@
-"""SignSpace - tradutor de sinais EVA via MediaPipe Tasks API (nova)."""
+"""Tradutor de sinais EVA via MediaPipe Tasks"""
 import time
 from pathlib import Path
 
